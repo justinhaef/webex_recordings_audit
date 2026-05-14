@@ -11,6 +11,7 @@ class WebexAuditClient:
     def __init__(self):
         # WebexSimpleApi handles retry_429 and tokens automatically via env
         self.api = WebexSimpleApi(retry_429=True)
+        print("Started Webex API")
 
     def get_time_windows(self, start_dt: datetime, end_dt: datetime, interval_hours=12):
         """Chunks the year into manageable segments."""
