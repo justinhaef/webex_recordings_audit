@@ -10,8 +10,13 @@ wheels/
 .venv
 
 # # Data
-# data/
+data/
 # reports/
 
 # Enviornment variables
 .env
+
+# Future 
+src/calabrio.py
+src/reconciler.py
+src/database.py
